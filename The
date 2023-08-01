@@ -1,0 +1,17 @@
+ *
+     * The `insertText` is subject to interpretation by the client side.
+     * Some tools might not take the string literally. For example
+     * VS Code when code complete is requested in this example `con<cursor position>`
+     * and a completion item with an `insertText` of `console` is provided it
+     * will only insert `sole`. Therefore it is recommended to use `textEdit` instead
+     * since it avoids additional client side interpretation.
+     */
+    insertText?: string;
+    /**
+     * The format of the insert text. The format applies to both the `insertText` property
+     * and the `newText` property of a provided `textEdit`. If omitted defaults to
+     * `InsertTextFormat.PlainText`.
+     */
+————————————————
+版权声明：本文为CSDN博主「Mino.66」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/luoluoyang23/article/details/124543453
