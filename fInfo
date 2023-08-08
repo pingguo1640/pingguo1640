@@ -1,0 +1,14 @@
+if (param1 != null) 
+            fInfo.put("activateDate", param1); 
+    } 
+ 
+    public Date getDeActivateDate() { 
+        return (Date)fInfo.get("deactivateDate"); 
+    } 
+    public void setDeActivateDate(Date param1) { 
+        if (param1 != null) 
+            fInfo.put("deactivateDate", param1); 
+    } 
+ 
+	public String getSalutation() { 
+	    return (String)fInfo.get("salutation"); 
