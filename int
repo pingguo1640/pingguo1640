@@ -1,0 +1,9 @@
+static int ORDINAL_INVOICE_INV_NO;
+    static int ORDINAL_INVOICE_NAME;
+    static int ORDINAL_INVOICE_DATE;
+
+    static int ORDINAL_INV_ITEM_INV_NO;
+    static int ORDINAL_INV_ITEM_ITEM_NO;
+    static int ORDINAL_INV_ITEM_PROD_NO;
+    static int ORDINAL_INV_ITEM_QUANTITY;
+    static int ORDINAL_INV_ITEM_PRICE;
