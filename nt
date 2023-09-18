@@ -1,0 +1,7 @@
+System.out.println(); 
+    System.out.print("For selector, you can specify null or "); 
+    System.out.print("JMSCorrelationID=<event>"); 
+    System.out.println(); 
+    System.out.println(); 
+    System.out.println("\t Terminating Program ..."); 
+    System.exit(-1); 
